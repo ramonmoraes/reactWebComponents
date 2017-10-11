@@ -1,0 +1,16 @@
+.stylishContainer{
+  border: 1px solid orange;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.stylishPage{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  border: 1px solid black;
+  transition: 0.55s ease;
+}

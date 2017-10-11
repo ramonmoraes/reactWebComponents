@@ -16,9 +16,7 @@ class MenuAnimationContainer extends Component {
     return (
         <nav className='menuContainer' style={style}>
         <ListOfButtons hideMenu={this.props.hideMenu} handleHide={this.props.handleHide} >
-          <button> button 1</button>
-          <button> button 2</button>
-          <button> button 3</button>
+          {this.props.buttons}
         </ListOfButtons>
         <div className='blur' style={blurStyle}></div>
       </nav>

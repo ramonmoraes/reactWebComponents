@@ -8,7 +8,7 @@ class ListOfButtons extends Component {
   render() {
     let listOfButtons = [];
     this.props.children.map( (buttons)=>{
-      listOfButtons.push(buttons)
+      return listOfButtons.push(buttons)
     });
 
     let style={

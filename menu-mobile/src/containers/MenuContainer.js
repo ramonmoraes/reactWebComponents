@@ -25,11 +25,13 @@ class MenuContainer extends Component {
   }
 
   render() {
+
     return (
       <MenuAnimationContainer
         hideContainer={this.state.hideContainer}
         hideMenu={this.state.hideMenu}
         handleHide={this.handleHide}
+        buttons={this.props.buttons}
       />
     );
   }
